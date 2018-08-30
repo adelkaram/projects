@@ -1,0 +1,107 @@
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.bounceInLeft {
+  -webkit-animation: bounceInLeft 1s linear;
+  animation: bounceInLeft 1s linear;
+  
+
+}
+@keyframes bounceInLeft {
+ 
+
+  0% {
+    -webkit-transform: translate3d(-3500px, 0, 0);
+    transform: translate3d(-3500px, 0, 0); 
+  }
+
+  60% {
+      -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0); 
+  }
+
+  75% {
+    -webkit-transform: translate3d(12px, 0, 0);
+    transform: translate3d(12px, 0, 0); 
+  }
+
+  90% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0); 
+  }
+
+  100% {
+  -webkit-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0); 
+  }
+}
+
+.bounceInRight {
+  -webkit-animation: bounceInRight 1s;
+  animation: bounceInRight 1s;
+}
+
+@keyframes bounceInRight {
+  0% {
+    -webkit-transform: translate3d(3500px, 0, 0);
+    transform: translate3d(3500px, 0, 0); 
+  }
+
+  60% {
+      -webkit-transform: translate3d(-25px, 0, 0);
+    transform: translate3d(-25px, 0, 0); 
+  }
+
+  75% {
+    -webkit-transform: translate3d(-12px, 0, 0);
+    transform: translate3d(-12px, 0, 0); 
+  }
+
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0); 
+  }
+
+  100% {
+  -webkit-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0); 
+  }
+}
+
+
+.bounceInUp {
+  -webkit-animation: bounceInUp 1s;
+  animation: bounceInUp 1s;
+}
+
+@keyframes bounceInUp {
+  0% {
+    -webkit-transform: translate3d(0,3500px, 0);
+    transform: translate3d(0,3500px, 0); 
+  }
+
+  60% {
+      -webkit-transform: translate3d(0,-25px, 0);
+    transform: translate3d(0,-25px, 0); 
+  }
+
+  75% {
+    -webkit-transform: translate3d(0,-12px, 0);
+    transform: translate3d(0,-12px, 0); 
+  }
+
+  90% {
+    -webkit-transform: translate3d(0,-10px, 0);
+    transform: translate3d(0,-10px, 0); 
+  }
+
+  100% {
+  -webkit-transform: translate3d(0,0px, 0);
+    transform: translate3d(0,0px, 0); 
+  }
+}
+
+
